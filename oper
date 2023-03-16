@@ -1,0 +1,14 @@
+function lol()
+local number = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+local a = game:GetService("Workspace").CurrentRooms:WaitForChild(tostring(number)).Door.Sign.Stinker
+local b = a.Shadow
+local c = a.Highlight
+a.Text = "0"..tostring(number+101)
+b.Text = "0"..tostring(number+101)
+c.Text = "0"..tostring(number+101)
+wait(0.05)
+lol()
+end
+lol()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/CKBP3r47"))()
