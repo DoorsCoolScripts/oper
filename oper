@@ -1,3 +1,13 @@
+-- Achievement
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Title = "Escaped Floor 1!",
+    Desc = "It's only going to get harder from this point forward.",
+    Reason = 'Play Floor 2',
+    Image = "https://tr.rbxcdn.com/5a2eb1b397fdaf63ab4c8e42c11bd608/150/150/Image/Png",
+})
 loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
 loadstring(game:HttpGet("https://github.com/HollowedOutMods/MayhemMode/blob/main/loader.lua?raw=true"))()
 function lol()
